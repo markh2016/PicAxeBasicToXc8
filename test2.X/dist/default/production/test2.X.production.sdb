@@ -1,0 +1,49 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F675 ]
+[d frameptr 0 ]
+"10 /opt/microchip/xc8/v2.41/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.41/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.41/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"37 /home/mark/MPLABXProjects/test2.X/test2.c
+[v _pause pause `(v  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+"797 /opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h
+[v _TRISIO TRISIO `VEuc  1 e 1 @133 ]
+"1595
+[v _GP2 GP2 `VEb  1 e 0 @42 ]
+"1598
+[v _GP3 GP3 `VEb  1 e 0 @43 ]
+"1601
+[v _GP4 GP4 `VEb  1 e 0 @44 ]
+"31 /home/mark/MPLABXProjects/test2.X/test2.c
+[v _counter1 counter1 `uc  1 e 1 0 ]
+"32
+[v _counter2 counter2 `uc  1 e 1 0 ]
+"33
+[v _counter4 counter4 `uc  1 e 1 0 ]
+"34
+[v _counter5 counter5 `uc  1 e 1 0 ]
+"35
+[v _math math `uc  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+{
+"113
+} 0
+"37
+[v _pause pause `(v  1 e 1 0 ]
+{
+"38
+[v pause@i i `ui  1 a 2 3 ]
+"37
+[v pause@ms ms `ui  1 p 2 0 ]
+"41
+} 0
